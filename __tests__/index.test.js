@@ -1,7 +1,7 @@
 import getSortedPostsData from '../lib/posts';
 
-// describe('posts', () => {
-//   it('getPosts', () => {
-//     expect(getSortedPostsData()).toEqual(['pre-rendering', 'ssg-ssr']);
-//   });
-// });
+describe('posts', () => {
+  it('getPosts', () => {
+    expect(getSortedPostsData()).toEqual(['pre-rendering.md', 'ssg-ssr.md']);
+  });
+});
